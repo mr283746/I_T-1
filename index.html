@@ -4,6 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>I_T</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script
+            src="https://kit.fontawesome.com/8f311fc98b.js"
+            crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script
             src="https://kit.fontawesome.com/8f311fc98b.js"
@@ -14,13 +20,17 @@
         <nav id="nav">
             <span id="nav_bg"></span>
             <i id="b2" onclick="bar2()" class="fas fa-chevron-circle-left"></i><br>
-            
             <ul id="nav_ul">
-                <li><span></span><a onclick="li()" href="#header">Home</a><span></span></li><br> <br><br>
-                <li><span></span><a onclick="li()" href="#Math">Math</a><span></span></li><br> <br><br>
-                <li><span></span><a onclick="li()" href="#Physics">Physics</a><span></span></li><br> <br><br>
-                <li><span></span><a onclick="li()" href="#Chemistry">Chemistry</a><span></span></li><br> <br><br>
-                <li><span></span><a onclick="li()" href="#Computer">Computer</a><span></span></li><br> <br><br>
+                <li><span></span><a onclick="li()" href="#header">Home</a><span></span></li><br>
+                <br><br>
+                <li><span></span><a onclick="li()" href="#Math">Math</a><span></span></li><br>
+                <br><br>
+                <li><span></span><a onclick="li()" href="#Physics">Physics</a><span></span></li><br>
+                <br><br>
+                <li><span></span><a onclick="li()" href="#Chemistry">Chemistry</a><span></span></li><br>
+                <br><br>
+                <li><span></span><a onclick="li()" href="#Computer">Computer</a><span></span></li><br>
+                <br><br>
                 <li><span></span><a onclick="li()" href="#English">English</a><span></span></li>
             </ul>
         </nav>
@@ -28,11 +38,10 @@
         <div id="all">
             <header id="header">
                 <i id="b1" onclick="bar()" class="fas fa-chevron-circle-right"></i>
-                
             </header>
 
             <div id="Physics">
-                <section class="main">
+                <section class="main" data-aos="fade-right">
                     <h1><span></span> Physics <span></span></h1>
                     <h2>Files</h2>
                     <ul>
@@ -76,7 +85,7 @@
                         </li>
                     </ul>
 
-                    <div class="right">
+                    <div class="right" data-aos="fade-right">
                         <h2>Videos</h2>
 
                         <div class="video">
@@ -165,7 +174,7 @@
             </div>
 
             <div id="Math">
-                <section class="main">
+                <section class="main" data-aos="fade-right">
                     <h1><span></span> Math <span></span></h1>
                     <h2>Files</h2>
                     <ul>
@@ -176,7 +185,7 @@
                         </li>
                     </ul>
 
-                    <!-- <div class="right">
+                    <!-- <div class="right" data-aos="fade-right">
                         <h2>Videos</h2>
                         <div class="video">
                             
@@ -215,7 +224,7 @@
             </div>
 
             <div id="Chemistry">
-                <section class="main">
+                <section class="main" data-aos="fade-right">
                     <h1><span></span> Chemistry <span></span></h1>
                     <h2>Files</h2>
 
@@ -240,7 +249,7 @@
             </div>
 
             <div id="Computer">
-                <section class="main">
+                <section class="main" data-aos="fade-right">
                     <h1><span></span> Computer <span></span></h1>
                     <h2>Files</h2>
                     <ul>
@@ -256,7 +265,7 @@
                         </li>
                     </ul>
 
-                    <div class="right">
+                    <div class="right" data-aos="fade-right">
                         <h2>Videos</h2>
                         <div class="video">
                             <!-- Conversions between numerical systems -->
@@ -318,7 +327,7 @@
             </div>
 
             <div id="English">
-                <section class="main">
+                <section class="main" data-aos="fade-right">
                     <h1><span></span> English <span></span></h1>
                     <h2>Files</h2>
 
@@ -338,5 +347,34 @@
             </div>
 
         </div>
+
+
+
+
+
+
+        <footer>
+            <div>
+                <img
+                    src="https://scontent-hbe1-1.xx.fbcdn.net/v/t39.30808-6/264889415_998531371072489_8927394049523181727_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFH-5p_LK3NjVu4KW9H-UXNiCV19BoHrzCIJXX0GgevMPgpkSThOqjoT2DucXJy30Ds3hmD4MPraJ0r6ON5MSB6&_nc_ohc=uJG8vJlDr8UAX-8VBVQ&_nc_ht=scontent-hbe1-1.xx&oh=00_AT98QuEosWpqqTvoxV479Pzj6EPOlu0zJzMjcEztUFFbCA&oe=61CB599C"
+                    alt="My Photo">
+            </div>
+
+            <div>
+                <a href="https://www.facebook.com/mr2837465/"><i class="fab
+                        fa-facebook"></i></a>
+                <a href="https://mobile.twitter.com/Mohamed1973465"><i
+                        class="fab fa-twitter"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=+2001119746772"><i
+                        class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/mr2837465/"><i class="fab
+                        fa-instagram"></i></a>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init();
+        </script>
     </body>
 </html>

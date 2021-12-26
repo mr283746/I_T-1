@@ -1,3 +1,5 @@
+
+
 function bar()
 {
     document.getElementById('nav').style.width="100%";
